@@ -1,0 +1,15 @@
+<idea-plugin>
+    <id>com.shadowings.briscola</id>
+    <name>Briscola</name>
+    <vendor>Shadowings</vendor>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow
+                id="BriscolaWindow"
+                anchor="right"
+                factoryClass="com.shadowings.briscola.BriscolaWindowFactory"
+                secondary="false"
+                canCloseContents="true"
+                icon="AllIcons.General.Information"/>
+    </extensions>
+</idea-plugin>
